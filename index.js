@@ -2,9 +2,9 @@ const express = require('express')
 const app = express()
 const bodyParser = require("body-parser");
 
-const adddata = require("./AddData");
-const fileUpload = require("express-fileupload");
-const createfolder = require("./makefolder");
+// const adddata = require("./AddData");
+// const fileUpload = require("express-fileupload");
+// const createfolder = require("./makefolder");
 app.all('/', (req, res) => {
     console.log("Just got a request!")
     res.send('Yo!')
